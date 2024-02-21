@@ -1,0 +1,53 @@
+
+
+import 'package:flutter/material.dart';
+
+class AppTheme {
+
+  static const Color primary = Colors.indigo;
+  static const Color accentColor = Colors.red;
+
+  static final ThemeData lightTheme = ThemeData.light().copyWith(
+        //Color primario
+        primaryColor: Colors.indigo,
+        //AppBar theme
+        appBarTheme: const AppBarTheme(
+          color: primary,
+          elevation: 0,
+          centerTitle: true,
+          titleTextStyle: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold ),
+          iconTheme: IconThemeData(color: Colors.white, size: 30)
+        ),
+
+        bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+          backgroundColor: Colors.black,
+          unselectedItemColor: Colors.white,
+          selectedItemColor: primary,
+
+        )
+      );
+
+  static final ThemeData darkTheme = ThemeData.dark().copyWith(
+        //Color primario
+        primaryColor: Colors.indigo,
+        
+        //AppBar theme
+        appBarTheme: const AppBarTheme(
+          color: primary,
+          elevation: 0,
+          centerTitle: true,
+          titleTextStyle: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold ),
+          iconTheme: IconThemeData(color: Colors.white, size: 30)
+        ),
+
+        bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+          backgroundColor: Colors.black,
+          unselectedItemColor: Colors.white,
+          selectedItemColor: primary,
+        ),
+
+        scaffoldBackgroundColor: Colors.black
+
+);
+
+}
