@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 import 'package:news_app/models/models.dart';
+
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:http/http.dart' as http;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
+
 
 class NewsService extends ChangeNotifier{
 
@@ -22,7 +27,7 @@ class NewsService extends ChangeNotifier{
   
   final String _baseUrl = "newsapi.org";
   final String _country = "us";
-  final String _apikey = '39986bc7d41343a6a8676d855af963bc';
+  final String? _apikey = dotenv.env['API_KEY'];
 
   NewsService(){
 
