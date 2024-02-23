@@ -5,7 +5,7 @@
 Esta es una aplicación simple para ver películas que utiliza la API de News Api. Puedes ver detalles y disfrutar de información detallada sobre noticias por categorias.
 
 ## Requisitos previos
-Antes de ejecutar la aplicación, asegúrate de tener Flutter instalado en tu sistema. Puedes encontrar instrucciones para instalar Flutter aquí.
+Antes de ejecutar la aplicación, asegúrate de tener Flutter instalado en tu sistema. Puedes encontrar instrucciones para instalar Flutter [aquí](https://flutter.dev/).
 
 ## Configuración de API_KEY
 Para obtener datos de las noticias, necesitarás una clave de API. Sigue estos pasos para obtener tu clave:
