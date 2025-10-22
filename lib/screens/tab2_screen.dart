@@ -82,7 +82,7 @@ class _CategoryButton extends StatelessWidget {
       child: Container(
         width: 40,
         height: 40,
-        margin: const EdgeInsets.symmetric(horizontal: 10),
+        margin: const EdgeInsets.symmetric(horizontal: 11),
         decoration: const BoxDecoration(
           shape: BoxShape.circle,
           color: Colors.white
